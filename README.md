@@ -24,8 +24,8 @@ docker-compose up
 
 ## Other Notes 
 
-- we can add pm2 for cluster module for vertical scalling so we can get benifit of all core.
-- document db for data base if want to scale without hadling infrastructure or use mongodb sharding for scaling ( need to setup config.js file)
-- serverless can be a great choice if we are not intresting to manage load balancer , ec2 predefine ami and other headach
-- efficient solution for searching can be a elasticsearch instead mongodb (tries data strcuture based solution)
+- we can add pm2 for cluster module for vertical scaling so we can get the benefits of all core.
+- document DB for the database if want to scale without handling infrastructure or use MongoDB sharding for scaling ( need to setup config.js file)
+- serverless can be a great choice if we are not interesting to manage load balancer, ec2 predefine AMI, Downtime,  and other headaches
+- efficient solution for searching can be an elastic search instead MongoDB (tries data structure based solution)
 
